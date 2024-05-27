@@ -12,7 +12,7 @@
   li {
     color: black; 
     font-size: 25px;
-    cursor: pointer; /* 마우스를 가져다 댓을 때 포인터로 변경 */
+    cursor: pointer;
   }
 
   .movie-list {
