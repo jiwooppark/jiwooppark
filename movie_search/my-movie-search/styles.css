@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-family: "Silkscreen", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    background-color: #ffffff;
+  }
+  
+  li {
+    color: black; 
+    font-size: 25px;
+    cursor: pointer; /* 마우스를 가져다 댓을 때 포인터로 변경 */
+  }
+
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Roboto'
+  }
+  
+  .movie {
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  .movie img {
+    max-width: 100%;
+  }
+
+button {
+    padding: 8px 15px;
+    background-color: #000000; 
+    color: rgb(255, 255, 255); 
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000; 
+}
+.section-gap {
+  margin-top: 20px;
+}
